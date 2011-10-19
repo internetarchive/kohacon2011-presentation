@@ -1,0 +1,62 @@
+* Mention works/books, editions and authors before this
+
+* JSON API
+  - This is deprecated. Don't use it. 
+  - Brief discussion of 'thing's in the infogami context
+  - Example queries. 
+    - Find a book given its ISBN number
+      =curl -G --data-urlencode 'query={"type":"\/type\/edition", "isbn_13":"9780553273816"}' http://openlibrary.org/api/things=
+      returns
+      ={"status": "ok", "result": ["/books/OL7823977M"]}=
+  - Now find the rest of the details
+    - Identifier =/books/OL7823977M= give =curl
+      http://openlibrary.org/api/get\?key=/books/OL7823977M= 
+      returns
+      ={"status": "ok", "result": {"identifiers": {"librarything":
+      ["48053"], "goodreads": ["258922"]}, "weight": "6.4 ounces",
+      "covers": [368893], "latest_revision": 8, "source_records":
+      ["amazon:0553273817:bx:2309052062:259723"], "title": "A Canticle
+      for Leibowitz", "languages": [{"key": "/languages/eng"}],
+      "subjects": ["Christian hymnals", "Christianity", "Fiction -
+      Science Fiction", "Science Fiction - General", "Fiction /
+      Science Fiction / General", "Science Fiction"], "type": {"key":
+      "/type/edition"}, "physical_dimensions": "6.8 x 4.2 x 1.2
+      inches", "revision": 8, "publishers": ["Bantam Spectra"],
+      "physical_format": "Hardcover", "last_modified": {"type":
+      "/type/datetime", "value": "2010-10-12T02:38:10.487549"}, "key":
+      "/books/OL7823977M", "authors": [{"key": "/authors/OL382686A"}],
+      "created": {"type": "/type/datetime", "value":
+      "2008-04-29T15:03:11.581851"}, "number_of_pages": 368,
+      "isbn_13": ["9780553273816"], "isbn_10": ["0553273817"],
+      "publish_date": "June 1, 1984", "works": [{"key":
+      "/works/OL2626647W"}]}}=
+    - More details at =http://openlibrary.org/dev/docs/json_api=
+
+
+* Restful APIs
+** Getting an object
+   - Website at http://openlibrary.org/books/OL7823977M
+   - Json version at http://openlibrary.org/books/OL7823977M.json
+     or by passing an =Accept: application/json= header.
+   - Author and book information also available as RDF
+     =http://openlibrary.org/authors/OL382686A.rdf=
+** Querying 
+   - =http://openlibrary.org/query.json?type=/type/edition&isbn_13=9780553273816=
+     [{"key": "/books/OL7823977M"}]
+   - Passing an empty parameter will fetch its value
+     =http://openlibrary.org/query.json?type=/type/edition&isbn_13=9780553273816&title==
+     [{"key": "/books/OL7823977M", "title": "A Canticle for Leibowitz"}]
+** Full documentation 
+   =http://openlibrary.org/dev/docs/restful_api=
+   
+* Covers API
+  - Can be accessed based on identifier.
+  - e.g. http://covers.openlibrary.org/b/isbn/9780553273816-S.jpg (by ISBN)
+  - S, M and L for sizes.
+    
+   
+
+* Bulk data access
+  - Links to download data
+
+ 
