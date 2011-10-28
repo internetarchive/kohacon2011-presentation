@@ -1,5 +1,7 @@
 # Open Library
 
+.fx: ol-bg
+
 ----
 
 ## Introduction
@@ -11,7 +13,7 @@
 	
    Open Library is a library catalogue.   
    <br/>
-   Image : [http://www.flickr.com/photos/16712259@N04/4467481701/](http://www.flickr.com/photos/16712259@N04/4467481701/)<br/> Manchester Central Library (UK)
+   Image : [http://www.flickr.com/photos/16712259@N04/4467481701/](http://www.flickr.com/photos/16712259@N04/4467481701/)<br/> Manchester Central Library (UK) by [Ricardo](http://www.flickr.com/people/16712259@N04/).
 
 ----
 
@@ -24,4 +26,50 @@
   * One page for every book ever written.<br/>
   * All editable.
 
+----
+
+# Quick tour
+
+.fx: ol-bg
+
+----
+
+## Home page
+
+.fx: ol-bg center
+
+<image width="100%" src="images/tour/ol-home0.png"/>
+
+----
+  
+## Home page
+
+.fx: ol-bg center
+
+<image width="100%" src="images/tour/ol-home1.png"/>
+
+----
+
+## Home page
+
+.fx: ol-bg center
+
+<image width="100%" src="images/tour/ol-home2.png"/>
+
+----
+
+## Data in
+
+.fx: ol-bg
+
+  * We have many ways of obtaining data. 
+  * Import Bot
+	* Crawls various sources for catalogue records (Library of
+      congress, Amazon, Internet Archive etc.)
+	* Updates our database with these records. 
+  * People add records. 
+	* You can add a page for a book that's not yet known to Open Library.
+  * Other information
+	* Identifier bot adds identifiers like goodreads id. 
+	* Other bots to automate the adding of data.
 
