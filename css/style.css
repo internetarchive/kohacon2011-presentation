@@ -1,0 +1,13 @@
+div.ol-bg div.inner { 
+                      background-image:url("/home/noufal/projects/presentations/koha-presentation/images/ol-bg.png");
+                      background-position: center center;
+                      display: block;
+                      width: 100%;
+                      height: 100%;
+
+ }
+
+div.center { 
+             text-align: center;
+             
+ }
