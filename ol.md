@@ -72,4 +72,43 @@
   * Other information
 	* Identifier bot adds identifiers like goodreads id. 
 	* Other bots to automate the adding of data.
+	
+----
 
+## Subjects
+
+.fx: ol-bg
+ 
+  * Allows you to look at books published on a certain subject. 
+  * e.g. "Extraterrestrial beings" [http://openlibrary.org/subjects/extraterrestrial_beings](http://openlibrary.org/subjects/extraterrestrial_beings)
+  <image width="100%" src="images/tour/subjects0.png"/>
+  
+----
+
+## Subjects
+
+.fx: ol-bg center
+
+  <image width="100%" src="images/tour/subjects1.png"/>
+  
+  Publishing history
+  
+----
+
+## Subjects
+
+.fx: ol-bg center
+
+  <image width="100%" src="images/tour/subjects2.png"/>
+  
+  What, where, who and when?
+
+----
+
+## Subjects
+
+.fx: ol-bg center
+  
+  <image width="100%" src="images/tour/subjects3.png"/>
+  
+  Authors and publishers.
