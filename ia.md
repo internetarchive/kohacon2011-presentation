@@ -6,11 +6,11 @@
 
 .fx: notitle
 
-<img src="images/ialogo.png" style="height: 100%;"/>
+<img src="images/ialogo.png" style="width: 90%"/>
 
 ---
 
-# Universal Access to All Knowledge
+## Universal Access to All Knowledge
 
 ---
 
@@ -102,4 +102,10 @@
 ---
 
 # Archive It!
+
+
+.fx: notitle
+
+<img src="images/archiveit-full.png" style="width: 100%;"/>
+
 
