@@ -1,9 +1,9 @@
+
 # Open Library
 
 .fx: ol-bg
 
 ----
-
 
 ## A library catalogue
 
@@ -41,29 +41,127 @@ Quick tour</br><br/>
 Image : [http://www.flickr.com/photos/dippy_duck/466515388/](http://www.flickr.com/photos/dippy_duck/466515388/)<br/> Detail of John Carter Brown library, Brown University by [Mr. Ducke](http://www.flickr.com/photos/dippy_duck/).
 ----
 
-## Home page
+## Free ebooks to read
 
-.fx: ol-bg center
+.fx: ol-bg center notitle
 
 <image width="100%" src="images/tour/ol-home0.png"/>
 
+## Free ebooks to read
+
 ----
   
-## Home page
+## Lending library return cart
 
-.fx: ol-bg center
+.fx: ol-bg center notitle
 
 <image width="100%" src="images/tour/ol-home1.png"/>
 
+## Lending library Return cart
+
+
+
 ----
 
-## Home page
+## A community of patrons
 
-.fx: ol-bg center
+.fx: ol-bg center notitle
 
 <image width="100%" src="images/tour/ol-home2.png"/>
 
+## Around the library. A community of patrons.
+
 ----
+
+## Subjects : Extra terrestrials
+
+.fx: ol-bg notitle
+
+  <image width="100%" src="images/tour/subjects0.png"/>
+
+  * Allows you to look at books published on a certain subject. 
+  * e.g. "Extraterrestrial beings" [http://openlibrary.org/subjects/extraterrestrial_beings](http://openlibrary.org/subjects/extraterrestrial_beings)
+
+  
+----
+
+## Subjects : Publishing history
+
+.fx: ol-bg center notitle
+
+  <image width="100%" src="images/tour/subjects1.png"/>
+  
+  Publishing history
+  
+##   
+  
+----
+
+## Subjects : What, where, who and when?
+
+.fx: ol-bg center notitle
+
+  <image width="100%" src="images/tour/subjects2.png"/>
+  
+  What, where, who and when?
+
+----
+
+## Subjects : Authors and publishers
+
+.fx: ol-bg center notitle
+  
+  <image width="100%" src="images/tour/subjects3.png"/>
+  
+  Authors and publishers.
+
+----
+
+## What can do you with subjects?
+
+  * Find new stuff to read.
+	* New authors on the same subject.
+	* Related subjects.
+  * Discover interesting trends. <image width="100%" src="images/tour/subjects-olympics.png"/>
+    * Can you guess what subject this is?	
+  * Find relevant publishers.
+  * In general, a useful mine of data.
+
+----	
+
+## Search
+
+.fx: center notitle
+
+<image width="100%" src="images/tour/search.png"/>
+
+## All records indexed and can be searched. 
+
+----
+
+## Search inside
+
+.fx: center notitle
+
+<image width="100%" src="images/tour/search-inside.png"/>
+
+----
+
+## History
+
+.fx: center notitle
+
+
+
+----
+
+## Edits
+
+.fx: center notitle
+
+<img width="100%" src="images/edits-by-publisher.png"/>
+
+
 
 ## Data in
 
@@ -79,47 +177,12 @@ Image : [http://www.flickr.com/photos/dippy_duck/466515388/](http://www.flickr.c
   * Other information
 	* Identifier bot adds identifiers like goodreads id. 
 	* Other bots to automate the adding of data.
-	
-----
 
-## Subjects
 
-.fx: ol-bg
- 
-  * Allows you to look at books published on a certain subject. 
-  * e.g. "Extraterrestrial beings" [http://openlibrary.org/subjects/extraterrestrial_beings](http://openlibrary.org/subjects/extraterrestrial_beings)
-  <image width="100%" src="images/tour/subjects0.png"/>
-  
-----
+----	
 
-## Subjects
 
-.fx: ol-bg center
+## Add George's slides here 
 
-  <image width="100%" src="images/tour/subjects1.png"/>
-  
-  Publishing history
-  
-----
+ (TBD)
 
-## Subjects
-
-.fx: ol-bg center
-
-  <image width="100%" src="images/tour/subjects2.png"/>
-  
-  What, where, who and when?
-
-----
-
-## Subjects
-
-.fx: ol-bg center
-  
-  <image width="100%" src="images/tour/subjects3.png"/>
-  
-  Authors and publishers.
-
-----
-
-## 
