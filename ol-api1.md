@@ -1,6 +1,12 @@
-# OL Covers API
+# Open Library APIs
+---
+
+## OL Covers API
+
+&nbsp;
 
 ---
 
-# OL Books API
+## OL Books API
 
+&nbsp;
