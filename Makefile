@@ -1,4 +1,4 @@
-presentation.html: presentation.cfg ia.md ol.md Makefile
+presentation.html: presentation.cfg ia.md ol.md ol-*.md Makefile
 	landslide -c presentation.cfg
 
 clean:
