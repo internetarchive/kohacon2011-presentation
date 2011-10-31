@@ -6,11 +6,20 @@
 
 .fx: notitle
 
-<img src="images/ialogo.png" style="width: 90%"/>
+<img src="images/ialogo.png" style="height: 100%"/>
 
 ---
 
-## Universal Access to All Knowledge
+# Universal Access to All Knowledge
+
+---
+
+# Internet Archive
+
+.fx: notitle
+
+<img src="images/ia-sf-bangalore.png" style="height: 100%;"/>
+
 
 ---
 
@@ -108,4 +117,64 @@
 
 <img src="images/archiveit-full.png" style="width: 100%;"/>
 
+---
 
+# Book Scanning
+
+.fx: notitle
+
+<img src="images/bookscanning.png" style="width: 100%;"/>
+
+---
+
+# Book Scanning Map
+
+.fx: notitle 
+
+<img src="images/bookscanning-map.png" style="width: 100%;"/>
+
+.notes: IA Scanning Centers World Wide
+
+---
+
+# Sample Book
+
+.fx: notitle
+
+<img src="images/opticks-full.png" style="width: 100%;"/>
+
+---
+
+# Fulltext Search
+
+.fx: notitle
+
+<img src="images/bookreader-search.png" style="width: 100%;"/>
+
+---
+
+# Table of Contents
+
+.fx: notitle
+
+<img src="images/bookreader-toc.png" style="width: 100%;"/>
+
+---
+
+# IA Book Reader
+
+The book reader can be embedded in any web page. 
+
+<iframe src='http://www.archive.org/stream/opticksortreatisnewt?ui=embed#mode/2up' width='100%' height='70%' frameborder='0' >
+</iframe>
+
+---
+# Newton's Notes
+
+<div>
+<div style="float: left; padding: 10px;width: 45%;">
+    <img style="width: 100%;" src="images/opticks-newton1.jpg" /><br/>
+    <img style="width: 100%;" src="images/opticks-newton3.jpg" />
+</div>
+<img style="float: left; width: 45%; padding: 10px;" src="images/opticks-newton2.jpg" />
+</div>
