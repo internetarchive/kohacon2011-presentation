@@ -4,34 +4,41 @@
 
 ----
 
-## Introduction
 
-.fx: ol-bg center
+## A library catalogue
 
+.fx: ol-bg center notitle
 
 <img src="images/library-catalogue.jpg" />
 	
-   Open Library is a library catalogue.   
-   <br/>
-   Image : [http://www.flickr.com/photos/16712259@N04/4467481701/](http://www.flickr.com/photos/16712259@N04/4467481701/)<br/> Manchester Central Library (UK) by [Ricardo](http://www.flickr.com/people/16712259@N04/).
+
+## A library catalogue
+Image : [http://www.flickr.com/photos/16712259@N04/4467481701/](http://www.flickr.com/photos/16712259@N04/4467481701/)<br/> Manchester Central Library (UK) by [Ricardo](http://www.flickr.com/people/16712259@N04/).
 
 ----
 
 ## Wikipedia of books
 
-.fx: ol-bg center
+.fx: ol-bg center notitle
 	
 <img src="images/wikipedia-logo.png" />	
 
-  * One page for every book ever written.<br/>
-  * All editable.
+## A wikipedia of books
+
+   One page for every book ever written.<br/>
+   All editable.
 
 ----
 
 # Quick tour
 
-.fx: ol-bg
+.fx: ol-bg notitle center
 
+<img src="images/library-door.jpg" />
+
+# Welcome to Open Library
+Quick tour</br><br/>
+Image : [http://www.flickr.com/photos/dippy_duck/466515388/](http://www.flickr.com/photos/dippy_duck/466515388/)<br/> Detail of John Carter Brown library, Brown University by [Mr. Ducke](http://www.flickr.com/photos/dippy_duck/).
 ----
 
 ## Home page
@@ -112,3 +119,7 @@
   <image width="100%" src="images/tour/subjects3.png"/>
   
   Authors and publishers.
+
+----
+
+## 
