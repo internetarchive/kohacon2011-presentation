@@ -18,3 +18,59 @@ div.notitle header {
     display: none;
 }
 
+.bottom {
+    float: left;
+    width: 100%;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+div.banner {
+    display: none;
+}
+
+div.current div.banner {
+    position:absolute; 
+    z-index:3;
+    bottom:0px; 
+    opacity:0.8;
+    display: block;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+a.link {
+    font-size: 0.8em;
+}
+
+div.banner h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+div.current.bottom-title header {
+    display: none;
+}
+
+div.current.bottom-title header {
+    position:absolute; 
+    z-index:3;
+    bottom:0px; 
+    opacity:0.8;
+    display: block;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    text-align: center; 
+    left: inherit;
+    top: inherit;   
+} 
+
+div.bottom-title h1 {
+}

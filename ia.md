@@ -8,6 +8,7 @@
 
 <img src="images/ialogo.png" style="height: 100%"/>
 
+
 ---
 
 # Universal Access to All Knowledge
@@ -29,13 +30,18 @@
 
 <img src="images/ia-home.png" style="width: 100%;"/>
 
+<div class="banner">
+    <h3>www.archive.org</h3>
+</div>
+
 ---
 
 # The Way Back Machine
 
-.fx: notitle
+.fx: notitle bottom-title
 
 <img src="images/wayback-full.png" style="width: 100%;"/>
+
 
 ---
 
@@ -112,28 +118,25 @@
 
 # Archive It!
 
-
-.fx: notitle
+.fx: notitle bottom-title
 
 <img src="images/archiveit-full.png" style="width: 100%;"/>
 
 ---
 
-# Book Scanning
+# IA Scanning Center At San Francisco
 
-.fx: notitle
+.fx: notitle bottom-title
 
 <img src="images/bookscanning.png" style="width: 100%;"/>
 
 ---
 
-# Book Scanning Map
+# IA Scanning Centers World Wide
 
-.fx: notitle 
+.fx: notitle bottom-title
 
 <img src="images/bookscanning-map.png" style="width: 100%;"/>
-
-.notes: IA Scanning Centers World Wide
 
 ---
 
