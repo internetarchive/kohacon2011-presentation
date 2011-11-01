@@ -74,3 +74,54 @@ div.current.bottom-title header {
 
 div.bottom-title h1 {
 }
+
+/* --- */
+
+.middle {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  height: 700px;
+  width: 900px;
+}
+
+div.title-slide p {
+  font-size: 28px;
+}
+
+.title-slide h1, .title-slide h2 {
+  color: black;
+}
+.title-slide h1 {
+  font-size: 48px;
+}
+.title-slide h2 {
+  font-size: 32px;
+}
+
+span.small {
+    font-size: 20px;
+    font-style: italic;
+}
+
+a.download-slides {
+    font-size: 20px;
+}
+
+.title-slide a {
+    text-decoration: none;
+    border: none;
+}
+
+.title-slide a:hover {
+    text-decoration: underline;
+}
+
+li p {
+    padding: 0px;
+    margin: 0px;
+}
+
+slide.hidden {
+    display: none;
+}

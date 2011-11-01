@@ -1,8 +1,5 @@
 # Open Library APIs
 
-<div class="banner">
-    <a href="http://openlibrary.org/developers/api">http://openlibrary.org/developers/api</a>
-</div>
 
 ---
 
@@ -30,10 +27,56 @@ Allows you to access book covers from the Open Library Book Covers Repository.
 ## OL Books API
 
 * Inspired by [Google Books API](https://code.google.com/apis/books/docs/dynamic-links.html)
-* Extensions to provide more rich data
 
+<code>http://openlibrary.org/api/books?bibkeys=<b>lccn:55011803</b>&callback=process</code>
 
+    process({
+        "lccn:55011803": {
+            "bib_key": "lccn:55011803", 
+            "preview": "borrow", 
+            "thumbnail_url": "http://covers.openlibrary.org/b/id/6563267-S.jpg", 
+            "preview_url": "http://www.archive.org/details/sliderulepractic00bish", 
+            "info_url": "http://openlibrary.org/books/OL6179353M/Slide_rule"
+        }
+    });
 
 <div class="banner">
     <a href="http://openlibrary.org/dev/docs/api/books">http://openlibrary.org/dev/docs/api/books</a>
 </div>
+
+---
+
+## Getting more info using Books API
+
+
+<code>http://openlibrary.org/api/books?bibkeys=lccn:55011803&callback=process&<b>jscmd=data</b></code>
+
+<pre>
+process({
+  "lccn:55011803": {
+    "url": "http://openlibrary.org/books/OL6179353M/Slide_rule",        
+    "title": "Slide rule", 
+    "pagination": "149 p.", 
+    "identifiers": {
+        "lccn": ["55011803"], 
+        "librarything": ["358065"]
+    }, 
+    "cover": {
+        "small": "http://covers.openlibrary.org/b/id/6563267-S.jpg", ...
+    }, 
+    "subjects": [...],
+    "authors": [...],
+    "ebooks": [{
+      "availability": "borrow",
+      "borrow_url": "http://openlibrary.org/books/OL6179353M/Slide_rule/borrow",
+      "preview_url": "http://www.archive.org/details/sliderulepractic00bish", 
+      "formats": {...}
+    }], ...
+  }
+});
+</pre>
+
+<div class="banner">
+    <a href="http://openlibrary.org/dev/docs/api/books">http://openlibrary.org/dev/docs/api/books</a>
+</div>
+

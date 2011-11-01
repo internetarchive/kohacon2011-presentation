@@ -210,16 +210,7 @@ Crawls Library of congress, Amazon, Internet Archive etc and updates our records
 
 <img width="100%" src="images/tour/edits-by-publisher.png" />
 
-# Edits by relevant people
-
-http://openlibrary.org/works/OL9918024W/Deep_space
-
-----
-
-
-
-
-## Add George's slides here 
-
- (TBD)
-
+<div class="banner">
+    <h1>Edits by relevant people</h1>
+    <a href="http://openlibrary.org/works/OL9918024W/Deep_space">http://openlibrary.org/works/OL9918024W/Deep_space</a>
+</div>

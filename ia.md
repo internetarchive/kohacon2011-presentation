@@ -1,5 +1,30 @@
 # Open Library & Koha
 
+.fx: title-slide middle notitle
+
+# Open Library & Koha
+<br/>
+
+<p class="title-p">
+    Kohacon 2011
+    <br/>
+    <span class="small">November 1, 2011</span>
+</p>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<p class="title-p">
+    <a class="author" href="http://openlibrary.org/anand">Anand Chitipothu</a> 
+    & <a class="author" href="http://openlibrary.org/noufal">Noufal Ibrahim</a>
+    <br/>
+    <br/>
+    <a src="http://www.archive.org/">Internet Archive</a>
+</p>
+
+
 ----
 
 # Internet Archive
