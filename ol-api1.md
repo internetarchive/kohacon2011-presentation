@@ -48,7 +48,6 @@ Allows you to access book covers from the Open Library Book Covers Repository.
 
 ## Getting more info using Books API
 
-
 <code>http://openlibrary.org/api/books?bibkeys=lccn:55011803&callback=process&<b>jscmd=data</b></code>
 
 <pre>
@@ -80,3 +79,10 @@ process({
     <a href="http://openlibrary.org/dev/docs/api/books">http://openlibrary.org/dev/docs/api/books</a>
 </div>
 
+---
+
+## Open Library Covers in Koha
+
+.fx: notitle bottom-title
+
+<img src="images/koha-commit-full.png" style="width: 100%; margin-right: -10px;"/>
