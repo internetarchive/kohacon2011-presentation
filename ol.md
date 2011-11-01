@@ -151,35 +151,72 @@ Image : [http://www.flickr.com/photos/dippy_duck/466515388/](http://www.flickr.c
 
 .fx: center notitle
 
+<img width="100%" src="images/tour/history.png" />
 
+## History of a record
 
 ----
+
+## Diffs
+
+.fx: center notitle
+
+<img width="100%" src="images/tour/diff.png" />
+
+## Viewing changes
+
+----
+
+## Lists
+
+.fx: center notitle
+
+<img width="100%" src="images/tour/lists.png" />
+
+## Lists
+Adding a human angle
+
+----
+
+# Data in
+
+----
+
+## Sources of data
+
+.fx: ol-bg
+
+  * Open Library has many sources of data
+  * Bots
+  * Human beings
+
+----
+
+## Import bot
+
+.fx: notitle center
+
+<img width="100%" src="images/import-bot.png" />
+
+## Import bot
+
+Crawls Library of congress, Amazon, Internet Archive etc and updates our records.
+
+----	
 
 ## Edits
 
 .fx: center notitle
 
-<img width="100%" src="images/edits-by-publisher.png"/>
+<img width="100%" src="images/tour/edits-by-publisher.png" />
+
+# Edits by relevant people
+
+http://openlibrary.org/works/OL9918024W/Deep_space
+
+----
 
 
-
-## Data in
-
-.fx: ol-bg
-
-  * We have many ways of obtaining data. 
-  * Import Bot
-	* Crawls various sources for catalogue records (Library of
-      congress, Amazon, Internet Archive etc.)
-	* Updates our database with these records. 
-  * People add records. 
-	* You can add a page for a book that's not yet known to Open Library.
-  * Other information
-	* Identifier bot adds identifiers like goodreads id. 
-	* Other bots to automate the adding of data.
-
-
-----	
 
 
 ## Add George's slides here 

@@ -1,0 +1,76 @@
+* Introduction
+  - About us
+* Internet Archive
+  - Mission
+  - Technological non profit
+  - Projects
+    - Archive.org
+    - Wayback machine
+    - Archive.it
+** Book scanning
+   - Inside scanning centres
+   - Map of scanning centres
+   - Stats
+   - Interesting hooks (optiks)
+** Provides infinite space/bandwidth for public data
+* Open Library
+** One page for every books ever published
+** Wikipedia of books
+** Library catalogue
+*** Tour
+**** Homepage
+**** Exploring
+***** Subejcts
+***** Search
+***** History
+***** Diff
+***** Lists
+**** Data in
+***** Types of edits (merges, edits by authoritative people)
+**** Ebooks
+**** Borrowing
+**** Translations
+** API
+*** Open data
+**** Available via API
+**** Regular dumps (example)
+*** Examples of users (from websites)
+*** Covers
+**** Huge covers repository
+**** Accessible via simple interface
+*** Books API
+**** Piece by piece demo
+*** Read API
+**** Piece by piece demo
+*** Subjects API
+**** Piece by piece demo
+*** RESTful API
+**** Links on page
+*** Koha
+**** Integrate books API
+
+
+* Split up
+  | Area             | Who    | Time (minutes) |
+  |------------------+--------+----------------|
+  | IA               | Anand  |             10 |
+  |------------------+--------+----------------|
+  | OL-intro         | Noufal |             15 |
+  | OL-tour          | Noufal |                |
+  |------------------+--------+----------------|
+  | OL-ebooks        | Anand  |              5 |
+  | OL-lending       | Anand  |                |
+  |------------------+--------+----------------|
+  | API-covers       | Anand  |              6 |
+  | API-books        | Anand  |                |
+  |------------------+--------+----------------|
+  | API-Read         | Noufal |              7 |
+  | API-Subject      | Noufal |                |
+  | API-RestFul      | Noufal |                |
+  | Koha integration | Noufal |                |
+  |------------------+--------+----------------|
+  
+  
+ 
+
+  
