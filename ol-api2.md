@@ -23,13 +23,29 @@
 ## OL Restful API
 
 * This API is used to obtain machine readable versions of resources.
+* `http://openlibrary.org/books/OL16727417M/Anathem`
 <img width="100%" src="images/restful.png" />
 
-* http://openlibrary.org/books/OL16727417M.json 
 
-`{"covers": [6665655], "ia_loaded_id": ["anathem00step"],` <br/>
-.<br/>.<br/>
-`"publish_date": "2008", "works": [{"key": "/works/OL14911626W"}]}`<br/>
+---
+
+## Restful API : JSON records
+
+* `http://openlibrary.org/books/OL16727417M.json`
+
+        {
+            "key": "/books/OL16727417M", 
+            "title": "Anathem", 
+            "works": [
+                { "key": "/works/OL14911626W" }
+            ],
+            "isbn_10": ["0061474096", "0061694940"], 
+            "isbn_13": ["9780061474095", "9780061694943"], 
+            "identifiers": {
+                "goodreads": ["3268684", "2845024"], 
+                "librarything": ["5116802"]
+            }, ...
+        }
 
 ---
 
