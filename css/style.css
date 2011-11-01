@@ -125,3 +125,8 @@ li p {
 slide.hidden {
     display: none;
 }
+
+code {
+    font-size: inherit;
+    font-family:  Monaco, Courier, monospace;
+}

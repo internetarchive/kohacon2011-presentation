@@ -30,15 +30,17 @@ Allows you to access book covers from the Open Library Book Covers Repository.
 
 <code>http://openlibrary.org/api/books?bibkeys=<b>lccn:55011803</b>&callback=process</code>
 
-    process({
-        "lccn:55011803": {
-            "bib_key": "lccn:55011803", 
-            "preview": "borrow", 
-            "thumbnail_url": "http://covers.openlibrary.org/b/id/6563267-S.jpg", 
-            "preview_url": "http://www.archive.org/details/sliderulepractic00bish", 
-            "info_url": "http://openlibrary.org/books/OL6179353M/Slide_rule"
-        }
-    });
+<pre>
+process({
+    "lccn:55011803": {
+        "bib_key": "lccn:55011803", 
+        "preview": "borrow", 
+        "thumbnail_url": "http://covers.openlibrary.org/b/id/6563267-S.jpg", 
+        "preview_url": "http://www.archive.org/details/sliderulepractic00bish", 
+        "info_url": "http://openlibrary.org/books/OL6179353M/Slide_rule"
+    }
+});
+</pre>
 
 <div class="banner">
     <a href="http://openlibrary.org/dev/docs/api/books">http://openlibrary.org/dev/docs/api/books</a>
@@ -85,4 +87,5 @@ process({
 
 .fx: notitle bottom-title
 
+<div style="width: 100%; margin">
 <img src="images/koha-commit-full.png" style="width: 100%; margin-right: -10px;"/>

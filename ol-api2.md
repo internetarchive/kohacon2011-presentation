@@ -15,25 +15,31 @@
 
 ## OL Read API
 
-* http://openlibrary.org/api/volumes/brief/isbn/0596156715.json
+http://openlibrary.org/api/volumes/brief/isbn/0596156715.json
 
-	      {'items':
-           [{'match': 'exact',
-             'status': 'full access'}],
-             'itemURL': 'http://www.archive.org/stream/TheArtOfCommunity',
-             'cover': {'large': 'http://covers.openlibrary.org/b/id/6223071-L.jpg',
-                       'medium': 'http://covers.openlibrary.org/b/id/6223071-M.jpg',
-                       'small': 'http://covers.openlibrary.org/b/id/6223071-S.jpg'},
-             'fromRecord': '/books/OL23747519M',
-             'ol-edition-id': 'OL23747519M',
-             'ol-work-id': 'OL15328717W'}],
-          'records':
-            {'/books/OL23747519M':
-              {'data': { ... }
-               'isbns': ['0596156715',
-                         '9780596156718'],
-               'publishDates': ['August 2009'],
-               'recordURL': 'http://openlibrary.org/books/OL23747519M'}}}
+    {
+        "items":[{
+            "match": "exact",
+            "status": "full access"
+        }],
+        "itemURL": "http://www.archive.org/stream/TheArtOfCommunity",
+        "cover": {
+            "large": "http://covers.openlibrary.org/b/id/6223071-L.jpg",
+            "medium": "http://covers.openlibrary.org/b/id/6223071-M.jpg",
+            "small": "http://covers.openlibrary.org/b/id/6223071-S.jpg"
+        },
+        "fromRecord": "/books/OL23747519M",
+        "ol-edition-id": "OL23747519M",
+        "ol-work-id": "OL15328717W"}],
+        "records":{ 
+            "/books/OL23747519M": {
+                "data": { ... }
+                "isbns": ["0596156715", "9780596156718"],
+                "publishDates": ["August 2009"],
+                "recordURL": "http://openlibrary.org/books/OL23747519M"
+            }
+        }
+    }
 
 <div class="banner">
     <a href="http://openlibrary.org/dev/docs/api/read">http://openlibrary.org/dev/docs/api/read</a>
